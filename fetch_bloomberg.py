@@ -4,8 +4,9 @@
 Fetches the official Bloomberg RSS (latest 20 headlines), translates new
 English titles to Chinese via the free Google Translate endpoint
 (translate.googleapis.com, client=gtx, no key), merges with the existing
-bloomberg.xml in this repo (dedup by link, newest first, cap 600 items,
-no time limit), and writes bloomberg.xml back.
+feed file in this repo (dedup by link, newest first, cap 600 items,
+no time limit), and writes the feed file back.
+Output file: BLOOMBERG_RSS_OUTPUT env var, default bloomberg.xml.
 If Google Translate fails (e.g. 429 rate limit on the runner IP), the run
 still succeeds: new items keep English-only titles and a warning is logged.
 Exit code is 0 on success (RSS fetched and file written), 1 only if the RSS
@@ -22,7 +23,9 @@ from email.utils import parsedate_to_datetime, format_datetime
 from xml.sax.saxutils import escape as xml_escape
 
 RSS_URL = "https://www.bloomberg.com/feeds/news.rss"
-FEED_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "bloomberg.xml")
+_OUT = os.environ.get("BLOOMBERG_RSS_OUTPUT", "bloomberg.xml")
+FEED_FILE = (_OUT if os.path.isabs(_OUT) else
+             os.path.join(os.path.dirname(os.path.abspath(__file__)), _OUT))
 MAX_ITEMS = 600
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
@@ -74,7 +77,7 @@ def parse_pubdate(s):
 
 
 def read_existing():
-    """Return {link: item-dict} from the current bloomberg.xml, or {}."""
+    """Return {link: item-dict} from the current feed file, or {}."""
     items = {}
     if not os.path.isfile(FEED_FILE):
         return items
@@ -92,7 +95,7 @@ def read_existing():
                 "pub_dt": parse_pubdate(it.findtext("pubDate") or ""),
             }
     except Exception as e:
-        log("read existing bloomberg.xml FAILED (%s); starting fresh" % e)
+        log("read existing %s FAILED (%s); starting fresh" % (os.path.basename(FEED_FILE), e))
     return items
 
 
