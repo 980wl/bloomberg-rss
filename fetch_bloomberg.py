@@ -14,6 +14,7 @@ itself could not be fetched.
 """
 import json
 import os
+import subprocess
 import sys
 import urllib.parse
 import urllib.request
@@ -64,6 +65,45 @@ def google_translate(titles):
     except Exception as e:
         log("translate: FAILED (%s)" % e)
         return None
+
+
+def gemini_translate(titles):
+    """Translate via the local Gemini helper (Muse VM only).
+    Returns a list of the same length, or None if unavailable.
+    The helper lives outside the repo (custom.gemini connector); on the
+    GitHub Actions runner it does not exist, so this returns None there."""
+    if not titles:
+        return []
+    helper = os.environ.get("GEMINI_TRANSLATE_HELPER", "")
+    if not helper:
+        helper = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "gemini_translate.py")
+    if not os.path.isfile(helper):
+        return None
+    try:
+        proc = subprocess.run(
+            [sys.executable, helper],
+            input=json.dumps({"titles": titles}).encode("utf-8"),
+            capture_output=True, timeout=120)
+    except Exception as e:
+        log("gemini: FAILED (%s)" % e)
+        return None
+    if proc.returncode != 0:
+        err = (proc.stdout.decode("utf-8", "replace").strip()
+               or proc.stderr.decode("utf-8", "replace").strip())[:300]
+        log("gemini: helper failed (%s)" % err)
+        return None
+    try:
+        data = json.loads(proc.stdout.decode("utf-8"))
+    except Exception:
+        log("gemini: bad helper output")
+        return None
+    trans = data.get("translations")
+    if not isinstance(trans, list) or len(trans) != len(titles):
+        log("gemini: count mismatch (%s)"
+            % (data.get("error") or "bad response"))
+        return None
+    return [t.strip() for t in trans]
 
 
 def parse_pubdate(s):
@@ -161,7 +201,14 @@ def main():
                     zh_map[f["link"]] = t
             log("translated: %d/%d" % (len(zh_map), len(need)))
         else:
-            log("translation unavailable; new items will be English-only")
+            zh_gem = gemini_translate([f["title"] for f in need])
+            if zh_gem is not None:
+                for f, t in zip(need, zh_gem):
+                    if t:
+                        zh_map[f["link"]] = t
+                log("translated via gemini: %d/%d" % (len(zh_map), len(need)))
+            else:
+                log("translation unavailable; new items will be English-only")
     # Merge: new items (with translated titles) + existing items.
     merged = dict(existing)
     for f in fresh:
