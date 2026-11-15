@@ -5,7 +5,15 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 15 Nov 2026 14:03:48 +0000</lastBuildDate>
+<lastBuildDate>Sun, 15 Nov 2026 14:18:43 +0000</lastBuildDate>
+<item>
+<title>Nvidia Crisis Reshapes Washington’s Tech Debate</title>
+<description>Nvidia 危机重塑华盛顿的科技辩论</description>
+<link>https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-reshapes-washington-s-tech-debate-video</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-15/nvidia-crisis-reshapes-washington-s-tech-debate-video</guid>
+<pubDate>Sun, 15 Nov 2026 14:10:32 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>Nvidia 危机重塑华盛顿的科技辩论</b></p><p>Nvidia Crisis Reshapes Washington’s Tech Debate</p>]]></content:encoded>
+</item>
 <item>
 <title>Airlines Struggle to Restore Operations, Trump's Asia Trip, More</title>
 <description>航空公司艰难恢复运营，特朗普的亚洲之行，及更多</description>
@@ -21,6 +29,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-15/airlines-struggle-to-restore-operations-trump-heads-to-asia</guid>
 <pubDate>Sun, 15 Nov 2026 13:51:14 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>航空公司艰难恢复运营，特朗普前往亚洲</b></p><p>Airlines Struggle to Restore Operations, Trump Heads to Asia</p>]]></content:encoded>
+</item>
+<item>
+<title>Estonia Says Russia Behind Failed Arson Attempt on Drone-Maker</title>
+<description>爱沙尼亚称俄罗斯是无人机制造商纵火未遂案的幕后黑手</description>
+<link>https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-15/estonia-says-russia-behind-failed-arson-attempt-on-drone-maker</guid>
+<pubDate>Sun, 15 Nov 2026 13:43:59 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>爱沙尼亚称俄罗斯是无人机制造商纵火未遂案的幕后黑手</b></p><p>Estonia Says Russia Behind Failed Arson Attempt on Drone-Maker</p>]]></content:encoded>
 </item>
 <item>
 <title>Router Failure Exposes Risks in FAA Network</title>
@@ -4789,22 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-12/fermi-s-top-nuclear-builder-departs-as-reactor-timeline-slips</guid>
 <pubDate>Thu, 12 Nov 2026 23:58:04 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>随着反应堆进度延误，Fermi 的首席核电建设方离职</b></p><p>Fermi’s Top Nuclear Builder Departs as Reactor Timeline Slips</p>]]></content:encoded>
-</item>
-<item>
-<title>Nvidia's Huang Out, SpaceX, Tesla Talk Record Merger, More</title>
-<description>英伟达的黄仁勋出局、SpaceX与特斯拉探讨创纪录的合并等</description>
-<link>https://www.bloomberg.com/news/audio/2026-11-12/nvidia-s-huang-out-spacex-tesla-talk-record-merger-more</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-12/nvidia-s-huang-out-spacex-tesla-talk-record-merger-more</guid>
-<pubDate>Thu, 12 Nov 2026 23:57:13 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>英伟达的黄仁勋出局、SpaceX与特斯拉探讨创纪录的合并等</b></p><p>Nvidia's Huang Out, SpaceX, Tesla Talk Record Merger, More</p>]]></content:encoded>
-</item>
-<item>
-<title>Watchdog Rebukes Largest US Grid Over Data Center Power Costs</title>
-<description>监管机构因数据中心电力成本斥责美国最大电网</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-12/watchdog-rebukes-largest-us-grid-over-data-center-power-costs</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-12/watchdog-rebukes-largest-us-grid-over-data-center-power-costs</guid>
-<pubDate>Thu, 12 Nov 2026 23:55:49 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>监管机构因数据中心电力成本斥责美国最大电网</b></p><p>Watchdog Rebukes Largest US Grid Over Data Center Power Costs</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
