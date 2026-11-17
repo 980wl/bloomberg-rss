@@ -14,6 +14,7 @@ itself could not be fetched.
 """
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.parse
@@ -45,23 +46,40 @@ def fetch(url, timeout=30):
 
 def google_translate(titles):
     """Translate a list of English titles to Chinese. Returns a list of the
-    same length, or None on any failure (caller falls back to English)."""
+    same length, or None on any failure (caller falls back to English).
+    Uses the translate_a/t endpoint (free client=gtx, no key, POST with one
+    q param per title). translate_a/single is rate-limited (429) from this
+    VM's IP, but /t is not (verified 2026-11-16); the response is a flat
+    JSON array, one translation per title, in order."""
     if not titles:
         return []
     try:
-        joined = "\n".join(titles)
-        url = ("https://translate.googleapis.com/translate_a/single"
-               "?client=gtx&sl=en&tl=zh-CN&dt=t&q="
-               + urllib.parse.quote(joined, safe=""))
-        raw = fetch(url, timeout=20)
+        data = urllib.parse.urlencode({"q": titles}, doseq=True).encode("utf-8")
+        req = urllib.request.Request(
+            "https://translate.googleapis.com/translate_a/t"
+            "?client=gtx&dt=t&sl=en&tl=zh-CN",
+            data=data,
+            headers={"Content-Type": "application/x-www-form-urlencoded",
+                     "User-Agent": UA},
+            method="POST")
+        with urllib.request.urlopen(req, timeout=20) as r:
+            raw = r.read()
         resp = json.loads(raw.decode("utf-8"))
-        segs = resp[0]
-        all_text = "".join(seg[0] for seg in segs)
-        parts = all_text.split("\n")
-        if len(parts) != len(titles):
-            log("translate: split count mismatch (%d != %d)" % (len(parts), len(titles)))
+        if not isinstance(resp, list) or len(resp) != len(titles):
+            log("translate: count mismatch (%s != %d)"
+                % (len(resp) if isinstance(resp, list) else type(resp).__name__,
+                   len(titles)))
             return None
-        return [p.strip() for p in parts]
+        out = []
+        for item in resp:
+            if isinstance(item, list):
+                out.append(str(item[0]).strip() if item else "")
+            else:
+                out.append(str(item).strip())
+        if any(not t for t in out):
+            log("translate: empty translation in batch")
+            return None
+        return out
     except Exception as e:
         log("translate: FAILED (%s)" % e)
         return None
@@ -222,6 +240,27 @@ def main():
     items = sorted(merged.values(),
                    key=lambda x: x["pub_dt"] or datetime.min.replace(tzinfo=timezone.utc),
                    reverse=True)[:MAX_ITEMS]
+    # --backfill: translate existing items that lack a Chinese title
+    # (zh has no CJK characters). The old check (zh empty or identical
+    # to the title) missed items whose stored description is a different
+    # English headline, e.g. the 2026-11-15 SpaceX and 2026-11-16 Nvidia
+    # items. One-off repair; the regular run only translates new titles.
+    if "--backfill" in sys.argv:
+        missing = [it for it in items
+                   if not re.search(r"[\u4e00-\u9fff]", it["zh"] or "")]
+        log("backfill: %d items lack Chinese" % len(missing))
+        done = 0
+        for i in range(0, len(missing), 20):
+            batch = missing[i:i + 20]
+            zh = google_translate([it["title"] for it in batch])
+            if zh is None:
+                zh = gemini_translate([it["title"] for it in batch])
+            if zh is not None:
+                for it, t in zip(batch, zh):
+                    if t:
+                        it["zh"] = t
+                        done += 1
+        log("backfill: filled %d/%d" % (done, len(missing)))
     with open(FEED_FILE, "w", encoding="utf-8") as fh:
         fh.write(build_xml(items))
     log("wrote %s: %d items, newest %s, oldest %s"
