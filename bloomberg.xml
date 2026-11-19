@@ -5,7 +5,7 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Thu, 19 Nov 2026 02:33:38 +0000</lastBuildDate>
+<lastBuildDate>Thu, 19 Nov 2026 02:48:36 +0000</lastBuildDate>
 <item>
 <title>India Studies Tax Proposals to Encourage Stock Trading, Curb Speculative Bets</title>
 <description>印度研究税收提案以鼓励股票交易、遏制投机性押注</description>
@@ -13,6 +13,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/newsletters/2026-11-19/india-studies-tax-proposals-to-encourage-stock-trading-curb-speculative-bets</guid>
 <pubDate>Thu, 19 Nov 2026 02:30:35 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>印度研究税收提案以鼓励股票交易、遏制投机性押注</b></p><p>India Studies Tax Proposals to Encourage Stock Trading, Curb Speculative Bets</p>]]></content:encoded>
+</item>
+<item>
+<title>Rakuten Bond Spreads Widen on Data Leak Ahead of New Debt Sale</title>
+<description>新债发售前数据泄露导致乐天债券利差扩大</description>
+<link>https://www.bloomberg.com/news/articles/2026-11-19/rakuten-bond-spreads-widen-on-data-leak-ahead-of-new-debt-sale</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-19/rakuten-bond-spreads-widen-on-data-leak-ahead-of-new-debt-sale</guid>
+<pubDate>Thu, 19 Nov 2026 02:29:59 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>新债发售前数据泄露导致乐天债券利差扩大</b></p><p>Rakuten Bond Spreads Widen on Data Leak Ahead of New Debt Sale</p>]]></content:encoded>
 </item>
 <item>
 <title>Mexico’s Electricity Utility CFE Raises $776 Million in Fibra Share Offer</title>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-17/deutsche-bank-seeks-to-curb-fallout-from-data-leaks-video</guid>
 <pubDate>Tue, 17 Nov 2026 19:43:26 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>德意志银行寻求遏制数据泄露的影响</b></p><p>Deutsche Bank Seeks to Curb Fallout From Data Leaks</p>]]></content:encoded>
-</item>
-<item>
-<title>Crypto Treasury Stocks Fall Anew as Ex-Citadel Securities Trader Nets Gains</title>
-<description>随着前 Citadel 证券交易员净收益，加密货币国库股再次下跌</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-17/crypto-treasury-stocks-fall-anew-as-ex-citadel-securities-trader-nets-gains</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-17/crypto-treasury-stocks-fall-anew-as-ex-citadel-securities-trader-nets-gains</guid>
-<pubDate>Tue, 17 Nov 2026 19:37:25 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>随着前 Citadel 证券交易员净收益，加密货币国库股再次下跌</b></p><p>Crypto Treasury Stocks Fall Anew as Ex-Citadel Securities Trader Nets Gains</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
