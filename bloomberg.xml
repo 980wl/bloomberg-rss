@@ -5,7 +5,7 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Sat, 21 Nov 2026 09:03:35 +0000</lastBuildDate>
+<lastBuildDate>Sat, 21 Nov 2026 09:18:34 +0000</lastBuildDate>
 <item>
 <title>How AI Is Forcing China to Reshape Industrial Policy</title>
 <description>人工智能如何迫使中国重塑产业政策</description>
@@ -31,6 +31,14 @@
 <content:encoded><![CDATA[<p><b>奇怪的事情：人工智能如何重塑中国产业政策（播客）</b></p><p>Odd Lots: How AI Reshaped Chinese Industrial Policy (Podcast)</p>]]></content:encoded>
 </item>
 <item>
+<title>Europe’s Power Market Is Flashing a Warning to Its Economy</title>
+<description>欧洲电力市场对其经济发出警告</description>
+<link>https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flashing-a-warning-to-its-economy</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-21/europe-s-power-market-is-flashing-a-warning-to-its-economy</guid>
+<pubDate>Sat, 21 Nov 2026 09:00:00 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>欧洲电力市场对其经济发出警告</b></p><p>Europe’s Power Market Is Flashing a Warning to Its Economy</p>]]></content:encoded>
+</item>
+<item>
 <title>Italy’s Webuild Completes Takeover of Construction Group Trevi</title>
 <description>意大利 Webuild 完成对 Trevi 建筑集团的收购</description>
 <link>https://www.bloomberg.com/news/articles/2026-11-21/italy-s-webuild-completes-takeover-of-construction-group-trevi</link>
@@ -47,12 +55,12 @@
 <content:encoded><![CDATA[<p><b>德科斯等待欧洲的召唤，作为债券治安维护者的克星</b></p><p>De Cos Awaits Europe’s Call as a Nemesis to the Bond Vigilantes</p>]]></content:encoded>
 </item>
 <item>
-<title>Taiwan Bans Short Sales of Stocks in New Move to Calm Markets</title>
+<title>Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern</title>
 <description>台湾禁止卖空股票，以稳定市场的新举措</description>
 <link>https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets</link>
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets</guid>
 <pubDate>Sat, 21 Nov 2026 07:53:21 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>台湾禁止卖空股票，以稳定市场的新举措</b></p><p>Taiwan Bans Short Sales of Stocks in New Move to Calm Markets</p>]]></content:encoded>
+<content:encoded><![CDATA[<p><b>台湾禁止卖空股票，以稳定市场的新举措</b></p><p>Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern</p>]]></content:encoded>
 </item>
 <item>
 <title>Paschi Deems Intesa’s Offer Fair Yet Value Not Fully Reflected</title>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-19/offshore-chinese-yuan-drops-to-weakest-level-in-over-a-month-mwnvjmz2</guid>
 <pubDate>Thu, 19 Nov 2026 18:19:10 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>离岸人民币跌至一个多月以来的最低水平</b></p><p>Offshore Chinese Yuan Drops to Weakest Level in Over a Month</p>]]></content:encoded>
-</item>
-<item>
-<title>Anthropic Makes History on Wall Street</title>
-<description>Anthropic 在华尔街创造历史</description>
-<link>https://www.bloomberg.com/news/videos/2026-11-19/open-interest-11-19-2026-video</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-19/open-interest-11-19-2026-video</guid>
-<pubDate>Thu, 19 Nov 2026 18:14:41 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>Anthropic 在华尔街创造历史</b></p><p>Anthropic Makes History on Wall Street</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
