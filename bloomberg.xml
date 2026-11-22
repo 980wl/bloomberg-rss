@@ -5,7 +5,7 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Sun, 22 Nov 2026 23:16:01 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Nov 2026 23:26:00 +0000</lastBuildDate>
 <item>
 <title>US Stock Futures Open Higher, Democrats Historic House Majority</title>
 <description>美国股指期货高开，民主党历史性众议院多数席位</description>
@@ -13,6 +13,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-22/us-stock-futures-open-higher-democrats-historic-house-majority</guid>
 <pubDate>Sun, 22 Nov 2026 23:12:53 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>美国股指期货高开，民主党历史性众议院多数席位</b></p><p>US Stock Futures Open Higher, Democrats Historic House Majority</p>]]></content:encoded>
+</item>
+<item>
+<title>Stock Traders Brace For More Volatility After Tech-Driven Rout</title>
+<description>科技驱动的溃败后，股票交易员准备迎接更大的波动</description>
+<link>https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout</guid>
+<pubDate>Sun, 22 Nov 2026 23:04:42 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>科技驱动的溃败后，股票交易员准备迎接更大的波动</b></p><p>Stock Traders Brace For More Volatility After Tech-Driven Rout</p>]]></content:encoded>
 </item>
 <item>
 <title>World's Biggest Warrants Market Is Fueled by Unusual Trading in Hong Kong</title>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/newsletters/2026-11-20/rising-bond-yields-may-pose-a-challenge-to-nifty-s-sharp-rebound</guid>
 <pubDate>Fri, 20 Nov 2026 02:31:37 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>债券收益率上升可能对 Nifty 的大幅反弹构成挑战</b></p><p>Rising Bond Yields May Pose a Challenge to Nifty’s Sharp Rebound</p>]]></content:encoded>
-</item>
-<item>
-<title>Taiwan’s Stock Benchmark Plunges 18% in Worst Week Since 1991</title>
-<description>台湾股市再次暴跌，迎来1991年以来最糟糕的一周</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-20/taiwan-stocks-taiex-twse-1991-ai-chips-tsmc-hon-hai-foxconn</guid>
-<pubDate>Fri, 20 Nov 2026 02:29:57 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>台湾股市再次暴跌，迎来1991年以来最糟糕的一周</b></p><p>Taiwan’s Stock Benchmark Plunges 18% in Worst Week Since 1991</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
