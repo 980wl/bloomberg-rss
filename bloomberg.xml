@@ -5,7 +5,15 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 23 Nov 2026 19:36:00 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 19:46:00 +0000</lastBuildDate>
+<item>
+<title>Tech Disruptors: Quantinuum CEO on Trapped-Ion Computing</title>
+<description>技术颠覆者：Quantinuum 首席执行官谈俘获离子计算</description>
+<link>https://www.bloomberg.com/news/audio/2026-11-23/tech-disruptors-quantinuum-ceo-on-trapped-ion-computing</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-23/tech-disruptors-quantinuum-ceo-on-trapped-ion-computing</guid>
+<pubDate>Mon, 23 Nov 2026 19:42:44 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>技术颠覆者：Quantinuum 首席执行官谈俘获离子计算</b></p><p>Tech Disruptors: Quantinuum CEO on Trapped-Ion Computing</p>]]></content:encoded>
+</item>
 <item>
 <title>Lawmakers Demand Answers As Huang Returns to Nvidia</title>
 <description>黄回到英伟达后，立法者要求答案</description>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-20/bloomberg-wall-street-week-november-20th-2026-podcast</guid>
 <pubDate>Fri, 20 Nov 2026 20:14:03 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>彭博华尔街周刊：2026年11月20日（播客）</b></p><p>Bloomberg Wall Street Week: November 20th, 2026 (Podcast)</p>]]></content:encoded>
-</item>
-<item>
-<title>Trillions Podcast Live From Bloomberg ETFs in Depth: The Big Three</title>
-<description>彭博 ETF 深度直播播客：三巨头</description>
-<link>https://www.bloomberg.com/news/videos/2026-11-20/trillions-podcast-live-etfs-in-depth-the-big-three-video</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-20/trillions-podcast-live-etfs-in-depth-the-big-three-video</guid>
-<pubDate>Fri, 20 Nov 2026 20:13:45 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>彭博 ETF 深度直播播客：三巨头</b></p><p>Trillions Podcast Live From Bloomberg ETFs in Depth: The Big Three</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
