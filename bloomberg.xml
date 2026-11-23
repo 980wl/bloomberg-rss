@@ -5,7 +5,7 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Mon, 23 Nov 2026 01:25:41 +0000</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 01:35:41 +0000</lastBuildDate>
 <item>
 <title>US Futures Bounce, Democrats Clinch Historic House Majority</title>
 <description>美国期货反弹，民主党赢得众议院历史性多数席位</description>
@@ -13,6 +13,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-23/us-futures-bounce-democrats-clinch-historic-house-majority</guid>
 <pubDate>Mon, 23 Nov 2026 01:17:02 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>美国期货反弹，民主党赢得众议院历史性多数席位</b></p><p>US Futures Bounce, Democrats Clinch Historic House Majority</p>]]></content:encoded>
+</item>
+<item>
+<title>Copper Rises After Falling More Than 9% Last Week on AI Gloom</title>
+<description>铜价在上周因 AI 前景黯淡而下跌超过 9% 后上涨</description>
+<link>https://www.bloomberg.com/news/articles/2026-11-23/copper-rises-after-falling-more-than-9-last-week-on-ai-gloom</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-23/copper-rises-after-falling-more-than-9-last-week-on-ai-gloom</guid>
+<pubDate>Mon, 23 Nov 2026 01:05:30 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>铜价在上周因 AI 前景黯淡而下跌超过 9% 后上涨</b></p><p>Copper Rises After Falling More Than 9% Last Week on AI Gloom</p>]]></content:encoded>
 </item>
 <item>
 <title>Emerging-Market Stocks Set to Erase 2026 Gains on AI Selloff</title>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-20/bloomberg-daybreak-asia-anthropic-record-debut-podcast</guid>
 <pubDate>Fri, 20 Nov 2026 04:25:59 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>彭博黎明亚洲：人类记录首次亮相（播客）</b></p><p>Bloomberg Daybreak Asia: Anthropic Record Debut (Podcast)</p>]]></content:encoded>
-</item>
-<item>
-<title>ARK Invest's Cathie Wood on Anthropic, Nvidia</title>
-<description>ARK Invest 的 Cathie Wood 谈 Anthropic、Nvidia</description>
-<link>https://www.bloomberg.com/news/videos/2026-11-20/ark-invest-s-cathie-wood-on-anthropic-nvidia-video</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-20/ark-invest-s-cathie-wood-on-anthropic-nvidia-video</guid>
-<pubDate>Fri, 20 Nov 2026 04:22:07 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>ARK Invest 的 Cathie Wood 谈 Anthropic、Nvidia</b></p><p>ARK Invest's Cathie Wood on Anthropic, Nvidia</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
