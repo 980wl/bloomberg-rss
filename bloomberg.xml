@@ -5,7 +5,7 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 25 Nov 2026 00:26:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 00:46:05 +0000</lastBuildDate>
 <item>
 <title>What Jensen Huang’s Second Act Means for AI</title>
 <description>黄仁勋的第二幕对人工智能意味着什么</description>
@@ -21,6 +21,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-25/us-readies-tariff-hike-huang-apologizes-to-nvidia-staff-more</guid>
 <pubDate>Wed, 25 Nov 2026 00:06:18 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>美国准备加征关税，黄仁勋向英伟达员工道歉等</b></p><p>US Readies Tariff Hike, Huang Apologizes to Nvidia Staff, More</p>]]></content:encoded>
+</item>
+<item>
+<title>Nvidia’s Huang To Face Scrutiny on Capitol Hill</title>
+<description>英伟达黄仁勋将在国会山接受审查</description>
+<link>https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-late-edition-11-24-2026-video</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-late-edition-11-24-2026-video</guid>
+<pubDate>Wed, 25 Nov 2026 00:05:53 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>英伟达黄仁勋将在国会山接受审查</b></p><p>Nvidia’s Huang To Face Scrutiny on Capitol Hill</p>]]></content:encoded>
 </item>
 <item>
 <title>Trump Says Huang Pardon ‘Always an Option,’ New York Post Reports</title>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-23/david-herro-on-nvidia-s-ceo-shakeup-video</guid>
 <pubDate>Mon, 23 Nov 2026 15:51:29 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>大卫·赫罗 (David Herro) 谈 Nvidia 首席执行官人事变动</b></p><p>Nvidia Is Too Important for US Government to Ignore, Herro Says</p>]]></content:encoded>
-</item>
-<item>
-<title>Trump's Efforts to Bring Huang Back to Nvidia Pay Off</title>
-<description>特朗普为让黄重返英伟达而做出的干预得到了回报</description>
-<link>https://www.bloomberg.com/news/videos/2026-11-23/trump-s-efforts-to-reinstate-huang-at-nvidia-pays-off-video</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-23/trump-s-efforts-to-reinstate-huang-at-nvidia-pays-off-video</guid>
-<pubDate>Mon, 23 Nov 2026 15:51:03 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>特朗普为让黄重返英伟达而做出的干预得到了回报</b></p><p>Trump's Efforts to Bring Huang Back to Nvidia Pay Off</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
