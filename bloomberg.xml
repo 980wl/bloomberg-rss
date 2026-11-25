@@ -5,7 +5,15 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Wed, 25 Nov 2026 20:36:00 +0000</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 20:45:59 +0000</lastBuildDate>
+<item>
+<title>Bloomberg Talks: Angela Stent (Podcast)</title>
+<description>彭博社谈话：安吉拉·斯坦特（播客）</description>
+<link>https://www.bloomberg.com/news/audio/2026-11-25/bloomberg-talks-angela-stent-podcast</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-25/bloomberg-talks-angela-stent-podcast</guid>
+<pubDate>Wed, 25 Nov 2026 20:40:40 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>彭博社谈话：安吉拉·斯坦特（播客）</b></p><p>Bloomberg Talks: Angela Stent (Podcast)</p>]]></content:encoded>
+</item>
 <item>
 <title>Netflix Buys Seinfeld Studio Lot After Goldman Forecloses</title>
 <description>高盛取消抵押品赎回权后 Netflix 收购《宋飞正传》工作室土地</description>
@@ -29,6 +37,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-25/blue-owl-blackstone-make-rare-pension-deal-video</guid>
 <pubDate>Wed, 25 Nov 2026 20:27:17 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>Blue Owl 与 Blackstone 达成罕见养老金交易</b></p><p>Blue Owl, Blackstone Make Rare Pension Deal</p>]]></content:encoded>
+</item>
+<item>
+<title>Trump Revives US Tariff Regime</title>
+<description>特朗普恢复美国关税制度</description>
+<link>https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-early-edition-11-25-2026-video</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-25/balance-of-power-early-edition-11-25-2026-video</guid>
+<pubDate>Wed, 25 Nov 2026 20:24:52 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>特朗普恢复美国关税制度</b></p><p>Trump Revives US Tariff Regime</p>]]></content:encoded>
 </item>
 <item>
 <title>Sanofi’s $41B Insmed Deal Shows Cost of a Patent Cliff</title>
@@ -575,12 +591,12 @@
 <content:encoded><![CDATA[<p><b>旧金山海岸线将遭遇又一次历史最高潮汐</b></p><p>San Francisco Coastline Is Swamped by Record-High King Tides</p>]]></content:encoded>
 </item>
 <item>
-<title>Anthropic’s Debut Woes Contrast With SpaceX’s Start</title>
+<title>Anthropic’s Post-IPO Woes Contrast With SpaceX’s Start</title>
 <description>Anthropic上市后的挣扎与SpaceX早期形成鲜明对比</description>
 <link>https://www.bloomberg.com/news/articles/2026-11-25/anthropic-s-post-ipo-struggles-contrast-with-spacex-s-early-days</link>
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-25/anthropic-s-post-ipo-struggles-contrast-with-spacex-s-early-days</guid>
 <pubDate>Wed, 25 Nov 2026 16:45:00 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>Anthropic上市后的挣扎与SpaceX早期形成鲜明对比</b></p><p>Anthropic’s Debut Woes Contrast With SpaceX’s Start</p>]]></content:encoded>
+<content:encoded><![CDATA[<p><b>Anthropic上市后的挣扎与SpaceX早期形成鲜明对比</b></p><p>Anthropic’s Post-IPO Woes Contrast With SpaceX’s Start</p>]]></content:encoded>
 </item>
 <item>
 <title>CoreWeave, Nvidia Credit Risk Hit Fresh Highs as AI Fears Mount</title>
@@ -2287,12 +2303,12 @@
 <content:encoded><![CDATA[<p><b>彭博社黎明欧洲：美国准备好欧盟关税（播客）</b></p><p>Bloomberg Daybreak Europe: US Readies EU Tariffs (Podcast)</p>]]></content:encoded>
 </item>
 <item>
-<title>Treasury Yields Hit Two-Month Low as Risk-Off Move Accelerates</title>
+<title>US Treasury Yields Hit Two-Month Low as Tech Stocks Extend Slide</title>
 <description>人工智能担忧削弱风险情绪，美国国债全面上涨</description>
 <link>https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment</link>
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment</guid>
 <pubDate>Wed, 25 Nov 2026 06:49:34 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>人工智能担忧削弱风险情绪，美国国债全面上涨</b></p><p>Treasury Yields Hit Two-Month Low as Risk-Off Move Accelerates</p>]]></content:encoded>
+<content:encoded><![CDATA[<p><b>人工智能担忧削弱风险情绪，美国国债全面上涨</b></p><p>US Treasury Yields Hit Two-Month Low as Tech Stocks Extend Slide</p>]]></content:encoded>
 </item>
 <item>
 <title>GPIF Agenda May Signal Portfolio Review Progress, JPMorgan Says</title>
@@ -4789,22 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/opinion/articles/2026-11-24/bukele-s-bold-haiti-gamble-is-a-poor-long-term-bet</guid>
 <pubDate>Tue, 24 Nov 2026 12:30:11 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>布克莱在海地的大胆赌博是一个糟糕的长期赌注</b></p><p>Bukele’s Bold Haiti Gamble Is a Poor Long-Term Bet</p>]]></content:encoded>
-</item>
-<item>
-<title>Kohl’s Returns to Sales Growth as Turnaround Gains Strength</title>
-<description>随着扭亏为盈，科尔百货恢复销售增长</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-24/kohl-s-returns-to-sales-growth-as-turnaround-gains-strength</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-24/kohl-s-returns-to-sales-growth-as-turnaround-gains-strength</guid>
-<pubDate>Tue, 24 Nov 2026 12:29:25 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>随着扭亏为盈，科尔百货恢复销售增长</b></p><p>Kohl’s Returns to Sales Growth as Turnaround Gains Strength</p>]]></content:encoded>
-</item>
-<item>
-<title>Fund With $21 Billion Favors Africa Local Bonds, Adds to Uganda Bet</title>
-<description>210亿美元基金青睐非洲本地债券，加大对乌干达的押注</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-24/fund-with-21-billion-favors-africa-local-bonds-adds-to-uganda-bet</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-24/fund-with-21-billion-favors-africa-local-bonds-adds-to-uganda-bet</guid>
-<pubDate>Tue, 24 Nov 2026 12:26:19 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>210亿美元基金青睐非洲本地债券，加大对乌干达的押注</b></p><p>Fund With $21 Billion Favors Africa Local Bonds, Adds to Uganda Bet</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
