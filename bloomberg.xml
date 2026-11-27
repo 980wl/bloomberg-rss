@@ -5,7 +5,7 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 27 Nov 2026 06:48:15 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 06:58:14 +0000</lastBuildDate>
 <item>
 <title>Spanish Election Showdown, EU Budget Disputes Grow, More</title>
 <description>西班牙选举摊牌、欧盟预算争端加剧等</description>
@@ -61,6 +61,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/newsletters/2026-11-27/global-stocks-rise-as-ai-trade-revives-morning-briefing-europe</guid>
 <pubDate>Fri, 27 Nov 2026 06:21:48 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>随着人工智能贸易的复苏，全球股市上涨：欧洲早间简报</b></p><p>Global Stocks Rise as AI Trade Revives: Morning Briefing Europe</p>]]></content:encoded>
+</item>
+<item>
+<title>Asian Stocks Extend Recovery as AI Trade Rebounds</title>
+<description>人工智能贸易反弹，亚洲股市延续复苏</description>
+<link>https://www.bloomberg.com/news/videos/2026-11-27/the-asia-trade-11-27-2026-video</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-27/the-asia-trade-11-27-2026-video</guid>
+<pubDate>Fri, 27 Nov 2026 06:16:34 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>人工智能贸易反弹，亚洲股市延续复苏</b></p><p>Asian Stocks Extend Recovery as AI Trade Rebounds</p>]]></content:encoded>
 </item>
 <item>
 <title>Spain Election 2026: How Pedro Sánchez’s Snap Vote Is an Opening for Far Right</title>
@@ -4797,14 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-25/russia-s-elevated-oil-exports-add-to-global-supply-surplus</guid>
 <pubDate>Wed, 25 Nov 2026 12:02:40 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>俄罗斯石油出口增加导致全球供应过剩</b></p><p>Russia’s Elevated Oil Exports Add to Global Supply Surplus</p>]]></content:encoded>
-</item>
-<item>
-<title>Indonesia’s DSI to Set Palm Oil Export Fee at 0.5% of Value</title>
-<description>印度尼西亚 DSI 将棕榈油出口费设定为价值的 0.5%</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-25/indonesia-s-dsi-to-set-palm-oil-export-fee-at-0-5-of-value</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-25/indonesia-s-dsi-to-set-palm-oil-export-fee-at-0-5-of-value</guid>
-<pubDate>Wed, 25 Nov 2026 12:02:28 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>印度尼西亚 DSI 将棕榈油出口费设定为价值的 0.5%</b></p><p>Indonesia’s DSI to Set Palm Oil Export Fee at 0.5% of Value</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
