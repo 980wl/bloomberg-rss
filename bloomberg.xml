@@ -5,7 +5,15 @@
 <link>https://www.bloomberg.com/latest</link>
 <description>Bloomberg latest headlines with English titles and Chinese translations.</description>
 <language>zh-CN</language>
-<lastBuildDate>Fri, 27 Nov 2026 18:36:00 +0000</lastBuildDate>
+<lastBuildDate>Fri, 27 Nov 2026 18:46:01 +0000</lastBuildDate>
+<item>
+<title>Bloomberg Businessweek Daily: Black Friday Special (Podcast)</title>
+<description>彭博商业周刊日报：黑色星期五特别节目（播客）</description>
+<link>https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-businessweek-daily-black-friday-special-podcast</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-27/bloomberg-businessweek-daily-black-friday-special-podcast</guid>
+<pubDate>Fri, 27 Nov 2026 18:36:26 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>彭博商业周刊日报：黑色星期五特别节目（播客）</b></p><p>Bloomberg Businessweek Daily: Black Friday Special (Podcast)</p>]]></content:encoded>
+</item>
 <item>
 <title>Markets Close Higher, Nvidia Chip Used at China, More</title>
 <description>市场收高，中国使用的 Nvidia 芯片更多</description>
@@ -45,6 +53,14 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/audio/2026-11-27/weekend-law-supreme-court-special-podcast</guid>
 <pubDate>Fri, 27 Nov 2026 17:52:16 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>周末法律：最高法院特别节目（播客）</b></p><p>Weekend Law: Supreme Court Special (Podcast)</p>]]></content:encoded>
+</item>
+<item>
+<title>Traders Buy the Dip as Stocks Rise on Black Friday</title>
+<description>黑色星期五股市上涨，交易员逢低买入</description>
+<link>https://www.bloomberg.com/news/videos/2026-11-27/bloomberg-surveillance-11-27-2026-video</link>
+<guid isPermaLink="true">https://www.bloomberg.com/news/videos/2026-11-27/bloomberg-surveillance-11-27-2026-video</guid>
+<pubDate>Fri, 27 Nov 2026 17:36:52 GMT</pubDate>
+<content:encoded><![CDATA[<p><b>黑色星期五股市上涨，交易员逢低买入</b></p><p>Traders Buy the Dip as Stocks Rise on Black Friday</p>]]></content:encoded>
 </item>
 <item>
 <title>Bloomberg Businessweek Daily: Powering the Energy Boom (Podcast)</title>
@@ -4789,22 +4805,6 @@
 <guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-25/porky-ends-peru-s-election-year-nearly-empty-handed</guid>
 <pubDate>Wed, 25 Nov 2026 22:07:41 GMT</pubDate>
 <content:encoded><![CDATA[<p><b>波基几乎空手而归地结束了秘鲁的选举年</b></p><p>Porky Ends Peru’s Election Year Nearly Empty-Handed</p>]]></content:encoded>
-</item>
-<item>
-<title>Pension Funds Use Total Portfolio Approach to Manage AI Stock Exposure</title>
-<description>养老基金使用总体投资组合方法来管理人工智能股票敞口</description>
-<link>https://www.bloomberg.com/news/newsletters/2026-11-25/pension-funds-use-total-portfolio-approach-to-manage-ai-stock-exposure</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/newsletters/2026-11-25/pension-funds-use-total-portfolio-approach-to-manage-ai-stock-exposure</guid>
-<pubDate>Wed, 25 Nov 2026 22:06:59 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>养老基金使用总体投资组合方法来管理人工智能股票敞口</b></p><p>Pension Funds Use Total Portfolio Approach to Manage AI Stock Exposure</p>]]></content:encoded>
-</item>
-<item>
-<title>Neuralink Gets Clearance for Brain-Implant Trial in ALS Patients</title>
-<description>Neuralink 获准在 ALS 患者中进行脑植入试验</description>
-<link>https://www.bloomberg.com/news/articles/2026-11-25/neuralink-gets-clearance-for-brain-implant-trial-in-als-patients</link>
-<guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-25/neuralink-gets-clearance-for-brain-implant-trial-in-als-patients</guid>
-<pubDate>Wed, 25 Nov 2026 22:06:27 GMT</pubDate>
-<content:encoded><![CDATA[<p><b>Neuralink 获准在 ALS 患者中进行脑植入试验</b></p><p>Neuralink Gets Clearance for Brain-Implant Trial in ALS Patients</p>]]></content:encoded>
 </item>
 </channel>
 </rss>
